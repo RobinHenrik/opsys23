@@ -3,7 +3,8 @@
 Selles praktikumis tutvusin lähemalt failiõigustega Linuxis.
 Lõin erinevaid kasutajaid erinevate õigustega ning erinevaid katalooge ja faile erinevate õigustega, et mõista kuidas õigused Linuxis töötavad.
 ### Ülesanne 5.1
-a) Et lugeda faili kataloogis /tmp/kaust on vaja kataloogi õigusi u=rx ning faili õigus u=r \n
+a) Et lugeda faili kataloogis /tmp/kaust on vaja kataloogi õigusi u=rx ning faili õigus u=r  
+
 b) Et kustutada faili kataloogis /tmp/kaust on vaja kataloogi õigusi u=wx ning failis u=w
 ### Ülesanne 5.2
 Sest chmod a=x skriptifail määrab kõikidele kasutajatele, vaid skriptifaili käivitamisõiguse.
