@@ -29,12 +29,13 @@ Jah setuid kasutamine võib potensiaalselt vähendada süsteemi turvalisust. See
 Sticky-bit-õigustega yhiskaust-kataloogist saavad nüüd peeter-kasutaja loodud faile kustutada peeter-kasutaja ise, admin-kasutaja käsuga sudo ning root kasutaja.  
 
 ### Ülesanne 5.8
-peeter@neem-U23:/home/opetaja/klass$ getfacl hinded.txt
-"# file: hinded.txt"  
+peeter@neem-U23:/home/opetaja/klass$ getfacl hinded.txt  
 
-"# owner: opetaja"  
+\# file: hinded.txt  
 
-"# group: opetaja"  
+\# owner: opetaja  
+
+\# group: opetaja  
 
 user::rw-  
 
