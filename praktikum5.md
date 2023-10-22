@@ -15,7 +15,8 @@ Sest failidele ja kataloogidele määratakse vaikimisi õigused vastavalt kasuta
 ### Ülesanne 5.4
 Minimaalsed õigused on g=r  
 
-<img width="647" alt="ul4" src="https://github.com/RobinHenrik/opsys23/assets/144727763/f44e25d8-8ec5-4655-bbe6-b36d32576200">
+<img width="647" alt="ul4" src="https://github.com/RobinHenrik/opsys23/assets/144727763/f44e25d8-8ec5-4655-bbe6-b36d32576200">  
+
 ### Ülesanne 5.5
 <img width="654" alt="ul5" src="https://github.com/RobinHenrik/opsys23/assets/144727763/6e3781c4-b0c6-446f-98d2-6f48d8767633">
 Setuid-õigused on kasulikud, kui on vaja teatud programmil või skriptil teha midagi, mille jaoks kasutajal endal õiguseid pole.
