@@ -26,7 +26,7 @@ Setuid-õigused on kasulikud, kui on vaja teatud programmil või skriptil teha m
 Jah setuid kasutamine võib potensiaalselt vähendada süsteemi turvalisust. See võib näiteks anda administraatoriõigused programmile, millel neid olla ei tohiks. Programm saab tegutseda nagu administraator isegi, kui programmi käivitajal neid õigusi muidu ei oleks.  
 
 ### Ülesanne 5.7
-Sticky-bit-õigustega yhiskaust-kataloogist saavad nüüd peeter-kasutaja loodud faile kustutada peeter-kasutaja ise, admin-kasutaja käsuga sudo ning root kasutaja.  
+Sticky-bit-õigustega yhiskaust-kataloogist saavad nüüd peeter-kasutaja loodud faile kustutada peeter-kasutaja ise, yhiskaust-kataloogi omanik opetaja-kasutaja, admin-kasutaja käsuga sudo ning root kasutaja.  
 
 ### Ülesanne 5.8
 peeter@neem-U23:/home/opetaja/klass$ getfacl hinded.txt  
