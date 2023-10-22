@@ -18,12 +18,16 @@ Minimaalsed õigused on g=r
 <img width="647" alt="ul4" src="https://github.com/RobinHenrik/opsys23/assets/144727763/f44e25d8-8ec5-4655-bbe6-b36d32576200">  
 
 ### Ülesanne 5.5
-<img width="654" alt="ul5" src="https://github.com/RobinHenrik/opsys23/assets/144727763/6e3781c4-b0c6-446f-98d2-6f48d8767633">
-Setuid-õigused on kasulikud, kui on vaja teatud programmil või skriptil teha midagi, mille jaoks kasutajal endal õiguseid pole.
+<img width="654" alt="ul5" src="https://github.com/RobinHenrik/opsys23/assets/144727763/6e3781c4-b0c6-446f-98d2-6f48d8767633">  
+
+Setuid-õigused on kasulikud, kui on vaja teatud programmil või skriptil teha midagi, mille jaoks kasutajal endal õiguseid pole.  
+
 ### Ülesanne 5.6
-Jah setuid kasutamine võib potensiaalselt vähendada süsteemi turvalisust. See võib näiteks anda administraatoriõigused programmile, millel neid olla ei tohiks. Programm saab tegutseda nagu administraator isegi, kui programmi käivitajal neid õigusi muidu ei oleks.
+Jah setuid kasutamine võib potensiaalselt vähendada süsteemi turvalisust. See võib näiteks anda administraatoriõigused programmile, millel neid olla ei tohiks. Programm saab tegutseda nagu administraator isegi, kui programmi käivitajal neid õigusi muidu ei oleks.  
+
 ### Ülesanne 5.7
-Sticky-bit-õigustega yhiskaust-kataloogist saavad nüüd peeter-kasutaja loodud faile kustutada peeter-kasutaja ise, admin-kasutaja käsuga sudo ning root kasutaja.
+Sticky-bit-õigustega yhiskaust-kataloogist saavad nüüd peeter-kasutaja loodud faile kustutada peeter-kasutaja ise, admin-kasutaja käsuga sudo ning root kasutaja.  
+
 ### Ülesanne 5.8
 peeter@neem-U23:/home/opetaja/klass$ getfacl hinded.txt
 # file: hinded.txt
@@ -33,7 +37,8 @@ user::rw-
 group::---
 group:direktor:rw-
 mask::rw-
-other::---
+other::---  
+
 ### Ülesanne 5.9
 chattr +i - parameetriga faili sisu ei saa keegi modifitseerida.
 Käskudega "sudo chattr -i testfail-2" ja "sudo rm testfail-2" saab siiski faili kustutada.
