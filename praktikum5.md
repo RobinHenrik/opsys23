@@ -30,13 +30,20 @@ Sticky-bit-õigustega yhiskaust-kataloogist saavad nüüd peeter-kasutaja loodud
 
 ### Ülesanne 5.8
 peeter@neem-U23:/home/opetaja/klass$ getfacl hinded.txt
-"# file: hinded.txt
-"# owner: opetaja
-"# group: opetaja
-user::rw-
-group::---
-group:direktor:rw-
-mask::rw-
+"# file: hinded.txt"  
+
+"# owner: opetaja"  
+
+"# group: opetaja"  
+
+user::rw-  
+
+group::---  
+
+group:direktor:rw-  
+
+mask::rw-  
+
 other::---  
 
 ### Ülesanne 5.9
