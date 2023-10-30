@@ -1,4 +1,4 @@
-![ül3](https://github.com/RobinHenrik/opsys23/assets/144727763/fd1837ab-c74c-4803-b00f-e0ec336a6ca0)# Praktikum 6
+# Praktikum 6
 
 Selles praktikumis tutvusin erinevate protsessidega ning nendega seotud käskudega. Õppisin kuidas muuta protsesside sisendit ja väljundit ning kuidas neid suunata failidesse.
 
