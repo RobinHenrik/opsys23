@@ -1,5 +1,5 @@
 # Praktikum 8 
-Selles praktikumis tutvusin erinevate viisidega, kuidas andmeid varundada. Kasutasin nii RAID1 kui ka pilvevarundust. 
+Selles praktikumis tutvusin erinevate viisidega, kuidas andmeid varundada. Kasutasin nii RAID1 kui ka pilvevarundust, et minu andmetest oleks olemas koopiad juhul kui andmekandjaga midagi juhtub.
 ### Windows RAID 1 ülesandes 5 tehtud ekraanipildid. 
 <img width="1055" alt="ül1" src="https://github.com/RobinHenrik/opsys23/assets/144727763/700a2a5f-9634-4b94-9570-5b16bfa8cb52"> 
 ### Linux RAID 1 ülesandes 5 tehtud ekraanipidid. 
