@@ -12,7 +12,8 @@ Selles praktikumis tutvusin erinevate viisidega, kuidas andmeid varundada. Kasut
 ### Nextcloudi ülesandes tehtud ekraanipildid. 
 <img width="1920" alt="ül4" src="https://github.com/RobinHenrik/opsys23/assets/144727763/9acf58f5-4982-4cf0-932d-137f13ec029b">  
 
- 
+ <br/>
+
 
 <img width="1018" alt="ül4_2" src="https://github.com/RobinHenrik/opsys23/assets/144727763/285f017f-54de-4666-a83f-ad2c4d7d9649"> 
 
