@@ -1,6 +1,6 @@
 |  Küsimus |  Linux |  Windows |  Linuxis kasutatud käsklus	 |  Windowsis kasutatud tööriist |
 |---|---|---|---|---|
-| 1. Mitu protsessi kokku arvutis käib? |   |   |   |   |
+| "1. Mitu protsessi kokku arvutis käib?" |   |   |   |   |
 | 2. Milline on kõige esimesena käivitatud protsess? |   |   |   |   |
 | 3. Milliste kasutajate protsesse arvutis käib? |   |   |   |   |
 |4. Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.)  |   |   |   |   |
