@@ -1,5 +1,5 @@
 |  Küsimus |  Linux |  Windows |  Linuxis kasutatud käsklus	 |  Windowsis kasutatud tööriist |
-|---|---|---|---|---|
+|-----|-----|-----|-----|-----|
 | 1. Mitu protsessi kokku arvutis käib? | 218  |  120 | ps -aux | wc -l  |  Tegumihaldur -> Jõudlus |
 | 2. Milline on kõige esimesena käivitatud protsess? | /sbin/init splash  | smss.exe  | ps axo pid,cmd,comm,etime  | process explorer -> start time  |
 | 3. Milliste kasutajate protsesse arvutis käib? | avahi, colord, kernoops, message+, robin, root, rtkit, syslog, systemd+, USER  | DWM-1, LOCAL SERVICE, NETWORK SERVICE, Robin, SYSTEM, UMFD-0, UMFD-1  | ps aux &#124; cut -d ' ' -f 1 &#124; sort -u | Tegumihaldur -> Üksikasjad -> Kasutajanimi |
