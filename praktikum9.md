@@ -6,7 +6,7 @@
 |4. Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.)  |   | 1h55min  |   | Tegumihaldur -> Jõudlus -> CPU -> Tööaeg  |
 |5. Milline protsess käivitati kõige hiljem (viimasena)? |   | svchost.exe  |   |  process explorer -> start time |
 |6. Milline on kõige rohkem protsessoriaega võttev protsess?  |   | svchost.exe  |   |  process explorer -> CPU time |
-|7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  |   |   |   |   |
+|7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  |   | msedge.exe  |   | process explorer -> virtual size  |
 | 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? |   | SearchHost.exe |   | process explorer -> working set  |
 |9. Kui palju füüsilisest mälust (Physical Memory) on vaba?  |   |  1.8GB |   | Tegumihaldur -> jõudlus -> mälu |
 | 10. Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |   | 33,38GB;53%  |   | Kettahaldus  |
