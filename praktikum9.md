@@ -8,7 +8,7 @@
 |6. Milline on kõige rohkem protsessoriaega võttev protsess?  |   |   |   |   |
 |7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  |   |   |   |   |
 | 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? |   |   |   |   |
-|9. Kui palju füüsilisest mälust (Physical Memory) on vaba?  |   |   |   |   |
+|9. Kui palju füüsilisest mälust (Physical Memory) on vaba?  |   |  1.8GB |   | Tegumihaldur -> jõudlus -> mälu |
 | 10. Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |   |   |   |   |
 |11. Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   |   |   |   |
 |12. Uurige, millisele CPU alamtegevusele us, sy, id, wa, st jne kulub enim protsessori aega ja mitu protsenti kulub kummagi käsu korral.  |   | -  |   | -  |
