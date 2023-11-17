@@ -13,7 +13,7 @@
 |11. Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   | suurim fail: pagefile.sys     suurim alamkaust: C:\Windows  |   |  WinDirStat |
 |12. Uurige, millisele CPU alamtegevusele us, sy, id, wa, st jne kulub enim protsessori aega ja mitu protsenti kulub kummagi käsu korral.  |   | -  |   | -  |
 |13.1. Milline protsess kõige rohkem salvestusseadmele kirjutab?  |  - | msedge.exe  | -  | resource monitor -> disk -> write (B/sec)   |
-|13.2. Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab?  |  - |  C: \ $LogFile (NTFS Volume Log) |  - |  resource monitor -> disk -> file |
+|13.2. Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab?  |  - |  C:\$LogFile (NTFS Volume Log) |  - |  resource monitor -> disk -> file |
 | 13.3. Milline protsess kõige rohkem salvestusseadmelt loeb? |  - | msedge.exe  | -  | resource monitor -> disk -> write (B/sec)   |
 | 13.4 Millisest failist eelmise küsimuse protsess kõige rohkem loeb? | -  | C:\Windows\Fonts\malgun.ttf  |  - | resource monitor -> disk -> file  |
 |14. Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga?  |   |  msedge.exe |   |  resource monitor -> network -> total(B/sec) |
