@@ -1,11 +1,11 @@
 |  Küsimus |  Linux |  Windows |  Linuxis kasutatud käsklus	 |  Windowsis kasutatud tööriist |
 |---|---|---|---|---|
-| 1. Mitu protsessi kokku arvutis käib? |   |   |   |   |
-| 2. Milline on kõige esimesena käivitatud protsess? |   |   |   |   |
-| 3. Milliste kasutajate protsesse arvutis käib? |   |   |   |   |
-|4. Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.)  |   |   |   |   |
-|5. Milline protsess käivitati kõige hiljem (viimasena)? |   |   |   |   |
-|6. Milline on kõige rohkem protsessoriaega võttev protsess?  |   |   |   |   |
+| 1. Mitu protsessi kokku arvutis käib? |   |  120 |   |  Tegumihaldur -> Jõudlus |
+| 2. Milline on kõige esimesena käivitatud protsess? |   | smss.exe  |   | process explorer -> start time  |
+| 3. Milliste kasutajate protsesse arvutis käib? |   | DWM-1, LOCAL SERVICE, NETWORK SERVICE, Robin, SYSTEM, UMFD-0, UMFD-1  |   | Tegumihaldur -> Üksikasjad -> Kasutajanimi |
+|4. Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.)  |   | 1h55min  |   | Tegumihaldur -> Jõudlus -> CPU -> Tööaeg  |
+|5. Milline protsess käivitati kõige hiljem (viimasena)? |   | svchost.exe  |   |  process explorer -> start time |
+|6. Milline on kõige rohkem protsessoriaega võttev protsess?  |   | svchost.exe  |   |  process explorer -> CPU time |
 |7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  |   |   |   |   |
 | 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? |   |   |   |   |
 |9. Kui palju füüsilisest mälust (Physical Memory) on vaba?  |   |  1.8GB |   | Tegumihaldur -> jõudlus -> mälu |
