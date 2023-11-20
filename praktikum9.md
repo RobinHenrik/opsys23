@@ -4,7 +4,7 @@
 | 2. Milline on kõige esimesena käivitatud protsess? | /sbin/init splash  | smss.exe  | ps axo pid,cmd,comm,etime  | process explorer -> start time  |
 | 3. Milliste kasutajate protsesse arvutis käib? | avahi, colord, kernoops, message+, robin, root, rtkit, syslog, systemd+, USER  | DWM-1, LOCAL SERVICE, NETWORK SERVICE, Robin, SYSTEM, UMFD-0, UMFD-1  | ps aux &#124; cut -d ' ' -f 1 &#124; sort -u | Tegumihaldur -> Üksikasjad -> Kasutajanimi |
 |4. Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.)  | 18min  | 1h55min  | uptime -p  | Tegumihaldur -> Jõudlus -> CPU -> Tööaeg  |
-|5. Milline protsess käivitati kõige hiljem (viimasena)? |   | svchost.exe  |   |  process explorer -> start time |
+|5. Milline protsess käivitati kõige hiljem (viimasena)? | /usr/libexec/  | svchost.exe  | ps aux --sort=start_time  |  process explorer -> start time |
 |6. Milline on kõige rohkem protsessoriaega võttev protsess?  |   | svchost.exe  |   |  process explorer -> CPU time |
 |7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  |   | msedge.exe  |   | process explorer -> virtual size  |
 | 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? |   | SearchHost.exe |   | process explorer -> working set  |
