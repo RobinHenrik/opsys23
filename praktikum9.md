@@ -8,7 +8,7 @@
 |6. Milline on kõige rohkem protsessoriaega võttev protsess?  | /usr/bin/gnome-shell  | svchost.exe  | ps aux --sort=%cpu  |  process explorer -> CPU time |
 |7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  | /usr/bin/gnome-shell  | msedge.exe  | ps aux --sort=vsz  | process explorer -> virtual size  |
 | 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? | /usr/bin/gnome-shell  | SearchHost.exe | ps aux --sort=rss  | process explorer -> working set  |
-|9. Kui palju füüsilisest mälust (Physical Memory) on vaba?  |   |  1.8GB |   | Tegumihaldur -> jõudlus -> mälu |
+|9. Kui palju füüsilisest mälust (Physical Memory) on vaba?  | 213Mi  |  1.8GB | free -h -> Mem: free lahter  | Tegumihaldur -> jõudlus -> mälu |
 | 10. Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |   | 33,38GB;53%  |   | Kettahaldus  |
 |11. Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   | suurim fail: pagefile.sys     suurim alamkaust: C:\Windows  |   |  WinDirStat |
 |12. Uurige, millisele CPU alamtegevusele us, sy, id, wa, st jne kulub enim protsessori aega ja mitu protsenti kulub kummagi käsu korral.  |   | -  |   | -  |
