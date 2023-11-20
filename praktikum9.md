@@ -19,6 +19,14 @@
 |14. Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga? Vali antud protsessi poolt kasutatavatest ühendustest üks ning kirjuta välja järgnev: kohalik IP-aadress, kohalik port, ühenduse teise poole IP-aadress, port, latents ja antud ühenduse poolt kasutatav võrguliikluse kogumaht. | -  |  nextcloud.exe kohalik IP: 10.0.2.15 kohalik port: 49761 teise poole IP: 193.40.5.90 teise poole port: 443 latents: 0ms kogumaht: 138 B/sec| - |  resource monitor -> network -> network activity ja TCP connections |
 |15. Sõber kurdab, et tema arvuti on oluliselt aeglasemaks muutunud. Milliseid konkreetseid programme või käsureakäske kasutad põhjustaja tuvastamiseks. Mõlemal juhul kirjuta, mida konkreetselt jälgid (nt mis aken, veerud, numbrid jne). (Vali Linuxis või Windowsis)  | -  | Kõigepealt avaksin resource monitori ning vaataksin üle CPU -> Average CPU; Memory -> working set ning Disk -> Total tulbad. Kontrolliksin ka tegumihaldur -> protsessid -> Protsessor, Mälu ja Ketas tulpasi.  |  - | resource monitor, tegumihaldur  |
 
+### sha1sum /dev/zero &#124; sha1sum /dev/zero ja sha1sum /dev/urandom &#124; sha1sum /dev/urandom 
+<img width="1024" alt="dev_zero" src="https://github.com/RobinHenrik/opsys23/assets/144727763/3bc9ec4d-cf3f-4de6-aca0-3db65b20807c"> 
+
+<img width="1020" alt="dev_urandom" src="https://github.com/RobinHenrik/opsys23/assets/144727763/a0c36bea-1420-4014-b0a3-eb4feb808c7e">
+
+
+
+
 ### Ül 14 pilt
 <img width="704" alt="Screenshot 2023-11-17 164604" src="https://github.com/RobinHenrik/opsys23/assets/144727763/614263ef-de07-4a69-87d0-36c0fa530b27">
 
