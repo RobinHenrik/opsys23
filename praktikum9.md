@@ -10,7 +10,7 @@
 | 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? | /usr/bin/gnome-shell  | SearchHost.exe | ps aux --sort=rss  | process explorer -> working set  |
 |9. Kui palju füüsilisest mälust (Physical Memory) on vaba?  | 213Mi  |  1.8GB | free -h -> Mem: free lahter  | Tegumihaldur -> jõudlus -> mälu |
 | 10. Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? | 11GB, 46%  | 33,38GB;53%  | df -h /  | Kettahaldus  |
-|11. Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   | suurim fail: pagefile.sys     suurim alamkaust: C:\Windows  |   |  WinDirStat |
+|11. Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  | suurim fail: /var/lib/snapd/snaps/gnome-42-2204_141.snap  | suurim fail: pagefile.sys     suurim alamkaust: C:\Windows  | fail: sudo find / -type f -exec du -h {} + &#124; sort -rh &#124; head -n 1  |  WinDirStat |
 |12. Uurige, millisele CPU alamtegevusele us, sy, id, wa, st jne kulub enim protsessori aega ja mitu protsenti kulub kummagi käsu korral.  |   | -  |   | -  |
 |13.1. Milline protsess kõige rohkem salvestusseadmele kirjutab?  |  - | msedge.exe  | -  | resource monitor -> disk -> write (B/sec)   |
 |13.2. Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab?  |  - |  C:\ $LogFile (NTFS Volume Log) |  - |  resource monitor -> disk -> file |
