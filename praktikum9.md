@@ -7,7 +7,7 @@
 |5. Milline protsess käivitati kõige hiljem (viimasena)? | /usr/libexec/  | svchost.exe  | ps aux --sort=start_time  |  process explorer -> start time |
 |6. Milline on kõige rohkem protsessoriaega võttev protsess?  | /usr/bin/gnome-shell  | svchost.exe  | ps aux --sort=%cpu  |  process explorer -> CPU time |
 |7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  | /usr/bin/gnome-shell  | msedge.exe  | ps aux --sort=vsz  | process explorer -> virtual size  |
-| 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? |   | SearchHost.exe |   | process explorer -> working set  |
+| 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? | /usr/bin/gnome-shell  | SearchHost.exe | ps aux --sort=rss  | process explorer -> working set  |
 |9. Kui palju füüsilisest mälust (Physical Memory) on vaba?  |   |  1.8GB |   | Tegumihaldur -> jõudlus -> mälu |
 | 10. Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |   | 33,38GB;53%  |   | Kettahaldus  |
 |11. Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust?  |   | suurim fail: pagefile.sys     suurim alamkaust: C:\Windows  |   |  WinDirStat |
