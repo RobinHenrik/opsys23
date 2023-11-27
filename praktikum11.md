@@ -15,9 +15,11 @@ Selles praktikumis tutvusin järgmiste protokollidega: DNS, HTTP ja SMTP. Lisaks
 ![ül2](https://github.com/RobinHenrik/opsys23/assets/144727763/78fcd304-79f7-4b86-ad62-6c2741a6c691) 
 
 ### Ülesanne 3a 
+Serveritarkvara: cloudflare
 ![ül3_1](https://github.com/RobinHenrik/opsys23/assets/144727763/bfc0c90d-3b3a-4f43-b711-fad0fe5dbd6a) 
 
 ### Ülesanne 3b 
+404 veakood tähendab, et proovitud URL ei vii kuhugi või ressurssi pole saadaval. See võib olla ajutine probleem või siis võib ressurss olla kustutatud või liigutatud.
 ![ül3_2](https://github.com/RobinHenrik/opsys23/assets/144727763/560b3d7d-b290-424a-b5e0-1a604c28be6b) 
 
 ### Ülesanne 4 
