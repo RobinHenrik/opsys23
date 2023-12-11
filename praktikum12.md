@@ -78,4 +78,6 @@ echo $a
 
  ### Ülesanne 7 
  
-<img width="1920" alt="ül7" src="https://github.com/RobinHenrik/opsys23/assets/144727763/af314772-c20a-461e-bdc0-8003121ce5ae">
+<img width="1920" alt="ül7" src="https://github.com/RobinHenrik/opsys23/assets/144727763/af314772-c20a-461e-bdc0-8003121ce5ae"> 
+<img width="409" alt="image" src="https://github.com/RobinHenrik/opsys23/assets/144727763/9b39a614-492b-4bd6-8ce9-efddd8811ba4">
+
