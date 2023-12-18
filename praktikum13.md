@@ -21,6 +21,7 @@ Stop-Transcript:
 <br>
 Lõpetab transkriptsiooni. 
 <br>
+<br>
 Skript: 
 
 
