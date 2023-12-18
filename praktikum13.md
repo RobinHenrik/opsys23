@@ -5,7 +5,8 @@ Fail:
 
 [tulemus.txt](https://github.com/RobinHenrik/opsys23/files/13708910/tulemus.txt)
 **********************
-Windows PowerShell transcript start
+Windows PowerShell transcript start 
+
 Start time: 20231218235445
 Username: NEEM-W11\Robin
 RunAs User: NEEM-W11\Robin
