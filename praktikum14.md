@@ -24,7 +24,10 @@ Selles praktikumis õppisin kasutama Azure vm-i.
 ### Ülesanne 6 
 
 
-![ül6_oige](https://github.com/RobinHenrik/opsys23/assets/144727763/12d806d0-e0be-4580-b21d-bf46cd5a57c5) 
+![ül6_oige](https://github.com/RobinHenrik/opsys23/assets/144727763/12d806d0-e0be-4580-b21d-bf46cd5a57c5)  
+
+Skript: 
+
 
 
 ```
